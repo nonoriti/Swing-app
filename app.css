@@ -21,9 +21,9 @@ body {
 .golfin{
     color: #FFFEF9;
     font-size: 30px;
-    position: absolute;
-    margin-left: 160px;
-    top: 13%;
+    position: absolute; 
+    margin-left: 140px;
+    top: 8%;
     font-weight: bold;
     transform: translateY(-50%);
 }
