@@ -28,6 +28,74 @@ body {
     transform: translateY(-50%);
 }
 
+.menuBox {
+  margin-top: 90px;
+  position: absolute;
+  margin-right: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 106px;
+  height: 38px;
+  padding: 8px 8px 8px 8px;
+  background: #5A794D;
+  color: #FFFFFF;
+  border-color: #00000000;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Alata";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1;
+  text-align: center;
+}
+
+.menuBoxNotselected {
+  margin-top: 90px;
+  margin-right: -230px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 106px;
+  height: 38px;
+  padding: 8px 8px 8px 8px;
+  background: #CBE8BA;
+  color: #FFFFFF;
+  border-color: #00000000;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Alata";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1;
+  text-align: center;
+}
+
+.menuBoxNotselected1 {
+  margin-top: 90px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 106px;
+  height: 38px;
+  padding: 8px 8px 8px 8px;
+  background: #CBE8BA;
+  color: #FFFFFF;
+  border-color: #00000000;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Alata";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1;
+  text-align: center;
+}
+
 header {
   background-color: #5A794D;
   padding: 16px;
