@@ -9,7 +9,7 @@ body {
   width: 270px;
   height: 100vh;
   background-color: #fefef7;
-  box-shadow: 4px 0 10px rgba(0,0,0,0.05);
+  box-shadow: 4px 0 10px rgba(255, 56, 56, 0.05);
   padding: 1.2rem;
   box-sizing: border-box;
 }
@@ -51,4 +51,12 @@ body {
   margin-left: auto;
   color: #999;
   font-size: 0.85rem;
+}
+
+.side{
+  margin-right: 270px;
+  height: 100vh;
+  background-color: #fefef7;
+  padding: 1.2rem;
+  box-sizing: border-box;
 }

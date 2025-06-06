@@ -101,3 +101,8 @@ body {
 .stars {
   color: #FFD700;
 }
+
+h1, p {
+  padding: 6%;
+  text-align: center;
+}

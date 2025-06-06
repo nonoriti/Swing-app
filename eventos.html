@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Eventos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="eventos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <header class="app-header">
+        <div class="menu-icon" onclick="location.href='menuclickinside.html'">
+          <i class="fas fa-bars"></i>
+        </div>
+        <h1>Eventos</h1>
+    </header>
+
+  <div class="tabs">
+    <button class="active">Nacionais</button>
+    <button onclick="location.href='PAGINACONCEITO.html'">Internacionais </button>
+  </div>
+
+  <div class="agenda-section">
+    <h2>Agenda</h2>
+
+
+  </div>
+
+  <section class="event-list">
+    <div class="event">
+      <img src="footgolf.jpg" alt="Footgolf Abertura">
+      <div class="event-details">
+        <h3>FOOTGOLF: TORNEIO DE ABERTURA</h3>
+        <p>Cantanhede</p>
+        <p>Torneio Duplas - 9 Buracos</p>
+        <p>Torneio Individual - 18 Buracos</p>
+        <p>Limite: 72 Jogadores</p>
+        <p>3 Maio</p>
+      </div>
+    </div>
+
+    <div class="event">
+      <img src="gt-tour.jpg" alt="GT Tour Pares">
+      <div class="event-details">
+        <h3>GT TOUR PARES</h3>
+        <p>Próximo Torneio</p>
+        <p>Santo Estêvão</p>
+        <p>11 de Maio</p>
+      </div>
+    </div>
+
+    <div class="event">
+      <img src="ansgp.jpg" alt="4º Torneio ANSGP">
+      <div class="event-details">
+        <h3>4º TORNEIO: ANSGP</h3>
+        <p>Associação Nacional Seniores Golfe Portugal</p>
+        <p>Circuito P&P Guadiana</p>
+        <p>Amendoeira Golf Resort</p>
+        <p>17 Maio – Shotgun 9h</p>
+      </div>
+    </div>
+  </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("calendarToggle");
+    const calendarPopup = document.getElementById("calendarPopup");
+
+    toggleButton.addEventListener("click", function (e) {
+        e.stopPropagation(); 
+        calendarPopup.classList.toggle("hidden");
+    });
+    document.addEventListener("click", function (e) {
+        if (!calendarPopup.contains(e.target) && !toggleButton.contains(e.target)) {
+            calendarPopup.classList.add("hidden");
+        }
+    });
+});
+  </script>
+</body>
+</html>

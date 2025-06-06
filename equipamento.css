@@ -41,13 +41,14 @@ body {
   color: #566C44;
   cursor: pointer;
   display: flex;
-  align-items:start;
+  align-items:flex-start;
 }
 
 .tab.active {
   background-color: #566C44;
   color: white;
 }
+
 
 .header {
   background-color: #5a754e;
@@ -69,37 +70,22 @@ body {
 }
 
 .content {
-  padding: 0 1rem 1rem 1rem
+  padding: 1rem;
 }
 
 .block {
   margin-bottom: 2rem;
 }
 
-.block h1 {
-  padding: 0.5rem;
-  color: #5a754e
-}
-
 .block img {
   width: 100%;
+  max-width: 100%;
   border-radius: 5px;
   margin-bottom: 0.5rem;
 }
 
-.block p, li {
+.block p {
   font-size: 1rem;
   line-height: 1.5;
   text-align: justify;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-section p{
-  text-align:justify;
 }

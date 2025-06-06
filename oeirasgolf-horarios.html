@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oeiras Golf - Horários</title>
+  <link rel="stylesheet" href="horarios.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <header class="app-header">
+        <div class="menu-icon" onclick="history.back();">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <h1> Disponibilidade</h1>
+      </header>
+
+  <section class="schedule-section">
+    <div class="schedule-header">
+      <h2>Horários</h2>
+        <button id="calendarPopup" class="calendar-popup">
+            <input type="date" id="calendarInput" value="2025-03-31"> 
+        </button>
+      </div>
+  </section>
+<br>
+<section class="schedule-section">
+<div class="weekly-hours">
+      <p><strong>Segunda-feira</strong><br>08:00 – 20:00</p>
+      <p><strong>Terça-feira</strong><br>08:00 – 20:00</p>
+      <p><strong>Quarta-feira</strong><br>08:00 – 20:00</p>
+      <p><strong>Quinta-feira</strong><br>08:00 – 20:00</p>
+      <p><strong>Sexta-feira</strong><br>08:00 – 20:00</p>
+      <p><strong>Sábado</strong><br>07:30 – 19:00</p>
+      <p><strong>Domingo</strong><br>07:30 – 19:00</p>
+</div>
+</section>
+
+<section class="popular-times">
+    <h3>Horas populares </h3>
+    <img src="popular-times.png">
+</section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("calendarToggle");
+    const calendarPopup = document.getElementById("calendarPopup");
+
+    toggleButton.addEventListener("click", function (e) {
+        e.stopPropagation(); 
+        calendarPopup.classList.toggle("hidden");
+    });
+    document.addEventListener("click", function (e) {
+        if (!calendarPopup.contains(e.target) && !toggleButton.contains(e.target)) {
+            calendarPopup.classList.add("hidden");
+        }
+    });
+});
+  </script>
+
+<p> Nota: página conceito repetida. </p>
+</body>
+</html>

@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    padding-bottom: 2rem;
+  }
+  
+  .app-header {
+    background-color: #566C44;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header {
+    background-color: #5a754e;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .menu-icon {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+  }
+
+.schedule-section {
+    background-color: #d4edc9;
+    padding: 0.5rem;
+}
+
+.schedule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.schedule-header h2 {
+    font-size: 1.5rem;
+    color: #5a754e;
+    padding: 0.5rem;
+}
+
+.date-picker {
+    display: flex;
+    align-items: center;
+}
+
+.date-picker input[type="date"] {
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+}
+
+.weekly-hours p {
+    font-size: 1.1rem;
+    margin: 0.4rem 0;
+    color: #5a754e;
+    text-align: center;
+}
+
+.weekly-hours strong {
+    color: #5a754e;
+}
+
+.popular-times {
+    padding: 1rem;
+    color: #5a754e;
+}
+
+.popular-times h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.popular-times img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.calendar-popup {
+    right: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.calendar-popup.hidden {
+    display: none;
+}
