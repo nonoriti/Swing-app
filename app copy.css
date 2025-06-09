@@ -1,0 +1,308 @@
+.bg-4 {
+	width: 386px;
+	height: 819px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFEF9;
+	border-radius: 40px 40px 40px 40px;
+}
+.bottom-bar-4 {
+	width: 140px;
+	height: 6px;
+	padding: 8px 8px 8px 8px;
+	opacity: 50%
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 12px 12px 12px 12px;
+}
+.time-4 {
+	width: 28px;
+	height: 21px;
+	opacity: 50%
+	font-size: 15px;
+	text-align: left;
+}
+.signal-icon-5 {
+	width: 17px;
+	height: 11px;
+	opacity: 49%
+}
+.wifi-icon-5 {
+	width: 17px;
+	height: 12px;
+	opacity: 50%
+}
+.battery-full-solid-icon-5 {
+	width: 20px;
+	height: 9px;
+	opacity: 50%
+}
+.texture-fabrik-kraft-recycled-paper-textures-1_08-webp-6 {
+	width: 376px;
+	height: 77px;
+	background: #00000000;
+}
+.texture-fabrik-kraft-recycled-paper-textures-1_08-webp-5 {
+	width: 376px;
+	height: 77px;
+	background: #00000000;
+}
+.texture-fabrik-kraft-recycled-paper-textures-1_08-webp-4 {
+	width: 376px;
+	height: 77px;
+	background: #00000000;
+}
+.texture-fabrik-kraft-recycled-paper-textures-1_08-webp-3 {
+	width: 376px;
+	height: 77px;
+	background: #00000000;
+}
+.hole-01-png {
+	width: 234px;
+	height: 662px;
+	transform: rotate(180deg);
+	background: #00000000;
+}
+.rectangle-26 {
+	width: 376px;
+	height: 106px;
+	padding: 8px 8px 8px 8px;
+	background: #5A794D;
+	border-color: #FFFFFF00;
+	border-width: 1px;
+	border-style: solid;
+}
+.iphone-frame-8 {
+	width: 431px;
+	height: 860px;
+	background: #DEE2E6;
+}
+.rectangle-40 {
+	width: 331px;
+	height: 42px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF00;
+}
+.equipamento {
+	width: 195px;
+	height: 44px;
+	color: #FFFFFF;
+	font-family: "Alata";
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+.keyboard-backspace-icon-2 {
+	width: 38px;
+	height: 38px;
+	background: #FFFEF9;
+}
+.rectangle-27 {
+	width: 106px;
+	height: 38px;
+	padding: 8px 8px 8px 8px;
+	background: #5A794D;
+	color: #FFFFFF;
+	border-color: #00000000;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	font-family: "Alata";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+}
+.rectangle-33 {
+	width: 106px;
+	height: 38px;
+	padding: 8px 8px 8px 8px;
+	background: #CBE8BA;
+	color: #FFFFFF;
+	border-color: #00000000;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	font-family: "Alata";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+}
+.rectangle-34 {
+	width: 116px;
+	height: 38px;
+	padding: 8px 8px 8px 8px;
+	background: #CBE8BA;
+	color: #FFFFFF;
+	border-color: #00000000;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	font-family: "Alata";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 0.9;
+	text-align: center;
+}
+.download-jpg {
+	width: 114px;
+	height: 114px;
+	background: #00000000;
+}
+.download-jpg {
+	width: 114px;
+	height: 114px;
+	background: #00000000;
+}
+.text-area-1 {
+	width: 148px;
+	height: 62px;
+	padding: 4px 8px 4px 8px;
+	background: #FFFFFF00;
+	color: #FFFFFF;
+	border-color: #FFFFFF00;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-family: "Alata";
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 1.3;
+	text-align: left;
+}
+.text-area-2 {
+	width: 148px;
+	height: 62px;
+	padding: 4px 8px 4px 8px;
+	background: #FFFFFF00;
+	color: #FFFFFF;
+	border-color: #FFFFFF00;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-family: "Alata";
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 1.3;
+	text-align: left;
+}
+.text-area-3 {
+	width: 148px;
+	height: 62px;
+	padding: 4px 8px 4px 8px;
+	background: #FFFFFF00;
+	color: #FFFFFF;
+	border-color: #FFFFFF00;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-family: "Alata";
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 1.3;
+	text-align: left;
+}
+.text-area-4 {
+	width: 148px;
+	height: 62px;
+	padding: 4px 8px 4px 8px;
+	background: #FFFFFF00;
+	color: #FFFFFF;
+	border-color: #FFFFFF00;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-family: "Alata";
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 1.3;
+	text-align: left;
+}
+.time-6 {
+	width: 28px;
+	height: 21px;
+	color: #FFFEF9;
+	font-family: "Helvetica";
+	font-weight: 700;
+	font-size: 15px;
+	text-align: left;
+}
+.grunge-paintbrush-ink-stroke-brush-free-png-webp {
+	width: 132px;
+	height: 100px;
+	opacity: 44%
+}
+.signal-icon-3 {
+	width: 17px;
+	height: 11px;
+	background: #F7F6F6;
+}
+.wifi-icon-3 {
+	width: 17px;
+	height: 12px;
+	background: #FFFFFF;
+}
+.battery-full-solid-icon-3 {
+	width: 20px;
+	height: 9px;
+	background: #FFFFFF;
+}
+.label-1 {
+	width: 1px;
+	height: 20px;
+	color: #232323;
+	font-family: "Alata";
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+}
+.download-jpg {
+	width: 114px;
+	height: 114px;
+	background: #00000000;
+}
+.grunge-paintbrush-ink-stroke-brush-free-png-webp-2 {
+	width: 132px;
+	height: 100px;
+	opacity: 44%
+}
+.grunge-paintbrush-ink-stroke-brush-free-png-webp-3 {
+	width: 132px;
+	height: 100px;
+	opacity: 44%
+}
+.download-jpg {
+	width: 114px;
+	height: 114px;
+	background: #00000000;
+}
+.grunge-paintbrush-ink-stroke-brush-free-png-webp-4 {
+	width: 132px;
+	height: 100px;
+	opacity: 44%
+}
+.screen_shot_2021-01-15_at_10-08-23_am-1-png {
+	width: 55px;
+	height: 210px;
+	transform: rotate(90deg);
+	background: #00000000;
+}
+.screen_shot_2021-01-15_at_10-08-23_am-2-png {
+	width: 54.91166077738515px;
+	height: 210px;
+	transform: rotate(90deg);
+	background: #00000000;
+}
+.screen_shot_2021-01-15_at_10-08-23_am-3-png {
+	width: 55px;
+	height: 209.86842105263148px;
+	transform: rotate(90deg);
+	background: #00000000;
+}
+.screen_shot_2021-01-15_at_10-08-23_am-4-png {
+	width: 55px;
+	height: 209.91666666666677px;
+	transform: rotate(90deg);
+	background: #00000000;
+}
